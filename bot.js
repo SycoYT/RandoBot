@@ -18,6 +18,7 @@ client.on('message', message => {
   	}
     if (message.content === 'Knock Kncok') {
     	message.reply('MOM?');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
