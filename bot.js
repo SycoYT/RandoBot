@@ -11,6 +11,13 @@ client.on('message', message => {
     	message.reply('hello good sir :D');
   	}
 });
+});
+
+client.on('message', message => {
+    if (message.content === 'what time is it?') {
+    	message.reply('IDK what time is it?');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
