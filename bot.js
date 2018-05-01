@@ -16,6 +16,9 @@ client.on('message', message => {
     if (message.content === 'Knock Knock') {
     	message.reply('MOM?');
     }
+    if (message.content === 'why did the chicken cross the road?') {
+    	message.reply('BEACAUSE ITS CROSSY ROAD');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
