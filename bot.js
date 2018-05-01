@@ -10,10 +10,6 @@ client.on('message', message => {
     if (message.content === 'hello bot') {
     	message.reply('hello good sir :D');
   	}
-});
-});
-
-client.on('message', message => {
     if (message.content === 'what time is it?') {
     	message.reply('IDK what time is it?');
   	}
