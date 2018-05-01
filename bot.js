@@ -19,6 +19,9 @@ client.on('message', message => {
     if (message.content === 'why did the chicken cross the road?') {
     	message.reply('BEACAUSE ITS CROSSY ROAD');
     }
+     if (message.content === 'what is ADPE ip?') {
+    	message.reply('It Is unreleased');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
