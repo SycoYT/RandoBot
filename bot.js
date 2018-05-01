@@ -13,9 +13,6 @@ client.on('message', message => {
     if (message.content === 'what time is it?') {
     	message.reply('IDK what time is it?');
   	}
-    if (message.content === 'FUCK') {
-    	message.reply('Watch Your Language');
-  	}
     if (message.content === 'Knock Knock') {
     	message.reply('MOM?');
     }
