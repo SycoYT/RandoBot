@@ -8,10 +8,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '~help') {
-    	message.reply('This is a bot created and developed by xSycox the main cmd start char is (~) and these are the list of current commands every command will have a help cmd and the cmds are
-                      -yomama
-                      -meme
-                      -randomjokes');
+    	message.reply('This is a bot created and developed by xSycox the main cmd start char is (~) and these are the list of current commands every command will have a help cmd and the cmds are 1. ~yomama 2. ~meme 3. ~randomjokes');
   	}
     if (message.content === 'what time is it?') {
     	message.reply('IDK what time is it?');
