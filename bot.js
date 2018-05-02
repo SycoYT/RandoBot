@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'hello bot') {
+    if (message.content === '~help') {
     	message.reply('hello good sir :D');
   	}
     if (message.content === 'what time is it?') {
@@ -19,8 +19,8 @@ client.on('message', message => {
     if (message.content === 'why did the chicken cross the road?') {
     	message.reply('BEACAUSE ITS CROSSY ROAD');
     }
-     if (message.content === 'what is ADPE ip?') {
-    	message.reply('It Is unreleased');
+     if (message.content === '@RandoBot spam') {
+    	message.reply('@RandoBot spam');
     }
 });
 
