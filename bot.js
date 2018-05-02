@@ -19,8 +19,8 @@ client.on('message', message => {
     if (message.content === 'why did the chicken cross the road?') {
     	message.reply('BEACAUSE ITS CROSSY ROAD');
     }
-     if (message.content === '@RandoBot spam') {
-    	message.reply('@RandoBot spam');
+     if (message.content === '@RandoBot6918 spam') {
+    	message.reply('@RandoBot6918 spam');
     }
 });
 
