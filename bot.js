@@ -17,10 +17,19 @@ client.on('message', message => {
     	message.reply('the memes cmd are custom made or from internet the cmd will be ^meme(1-50)');
     }
     if (message.content === '^yomama 1') {
-    	message.reply('yo mama so fat when she dis in call of duty the players a 5 person kill streak!!!');
+    	message.reply('yo mama so fat when she dies in call of duty the players a 5 person kill streak!!!');
     }
      if (message.content === '^yomama 2') {
-    	message.reply('yo mama so stupid she thought see weed was somthing fish smoke');
+    	message.reply('yo mama so stupid she thought seaweed was somthing fish smoke');
+    }
+      if (message.content === '^yomama 3') {
+    	message.reply('yo mama so short SHE HANDGLIDES ON A DORITO!!!');
+    }
+      if (message.content === '^yomama 4') {
+    	message.reply('yo mama so fat when dracula sucked her blood he got DIABETES');
+    }
+      if (message.content === '^yomama 5') {
+    	message.reply('yo mama so stupid she bought tickets for XBOX LIVE!!');
     }
 });
 
