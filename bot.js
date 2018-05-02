@@ -16,11 +16,11 @@ client.on('message', message => {
     if (message.content === '^meme help') {
     	message.reply('the memes cmd are custom made or from internet the cmd will be ^meme(1-50)');
     }
-    if (message.content === 'why did the chicken cross the road?') {
-    	message.reply('BEACAUSE ITS CROSSY ROAD');
+    if (message.content === '^yomama 1') {
+    	message.reply('yo mama so fat when she dis in call of duty the players a 5 person kill streak!!!');
     }
-     if (message.content === '@RandoBot6918 spam') {
-    	message.reply('@RandoBot6918 spam');
+     if (message.content === '^yomama 2') {
+    	message.reply('yo mama so stupid she thought see weed was somthing fish smoke');
     }
 });
 
